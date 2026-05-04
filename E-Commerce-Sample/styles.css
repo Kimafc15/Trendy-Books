@@ -321,6 +321,15 @@ FEATURES
 }
 
 .book {
+.book__ratings {
+  margin-bottom: 8px;
+  color: #fabf2a;
+}
+
+.book__price--normal {
+  text-decoration: line-through;
+  padding-right: 6px;
+  color: 
   width: 25%;
   padding: 24px;
 }
@@ -330,6 +339,8 @@ FEATURES
   transition: all 300ms ease;
   cursor: not-allowed;
 }
+
+
 
 .book__img--wrapper {
   margin-bottom: 8px;
@@ -351,16 +362,7 @@ FEATURES
   text-decoration: underline;
   cursor: not-allowed;
 }
-
-.book__ratings {
-  margin-bottom: 8px;
-  color: #fabf2a;
-}
-
-.book__price--normal {
-  text-decoration: line-through;
-  padding-right: 6px;
-  color: #bfbfbf;
+#bfbfbf;
 }
 
 /* 
